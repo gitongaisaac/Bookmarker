@@ -19,35 +19,31 @@
 }
 
 .bookmark-bar {
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr); */
-    justify-content: center;
-    align-items: center;
-    width:600px;
+    width: 600px;
+    height: 100px;
     padding: 20px;
     border: 1px solid var(--grey-500);
     background-color: var(--grey-300);
     border-radius: 10px;
-    box-shadow: var(--shadow-1);
+    box-shadow: var(--shadow-2);
 }
 
 .sites {
-    margin-top: 3rem;
+    margin: 3rem 0;
+}
+
+.sites .grid {
+    gap: 0px;
 }
 
 .sites .flex {
     justify-content: space-between;
 }
 
-.sites .container-1{
-    display: flex;
-    justify-content: center;
-}
-
 .btn:hover {
     color: var(--light-color);
 }
 
-.btn-xthin {
+.btn .btn-xthin {
     padding: 5px 30px;
 }
